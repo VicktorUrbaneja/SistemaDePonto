@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SistemaPontoOnline/SistemaPontoOnline.iml" filepath="$PROJECT_DIR$/SistemaPontoOnline/SistemaPontoOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SistemaPontoOnline-main.iml" filepath="$PROJECT_DIR$/.idea/SistemaPontoOnline-main.iml" />
+    </modules>
+  </component>
+</project>
