@@ -15,6 +15,8 @@ public class HistoricoPonto {
 
     @Id
     //Faltou questionarmos se criamos um ID aqui (João)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private LocalDateTime dataMarcacao;
 
     private TipoMarcacao tipoMarcacao;

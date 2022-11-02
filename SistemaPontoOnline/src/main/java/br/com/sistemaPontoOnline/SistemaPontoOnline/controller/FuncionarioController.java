@@ -16,9 +16,9 @@ public class FuncionarioController {
         this.funcionarioService = funcionarioService;
     }
 
-    @GetMapping("{codigoFuncional}")
-    Funcionario getById(@PathVariable Long codigoFuncional) {
-        return funcionarioService.getByCodigoFuncional(codigoFuncional);
+    @GetMapping("{id}")
+    Funcionario getById(@PathVariable Long id) {
+        return funcionarioService.getById(id);
     }
 
     @GetMapping

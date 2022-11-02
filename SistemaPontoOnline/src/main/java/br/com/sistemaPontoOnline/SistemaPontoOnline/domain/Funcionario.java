@@ -13,7 +13,7 @@ import java.sql.Time;
 public class Funcionario {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private Long codigoFuncional;
     private String nome;
